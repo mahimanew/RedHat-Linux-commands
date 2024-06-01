@@ -1,1 +1,6 @@
+Listing the content of the directory
+ls
+ls -l   # long listing
+ls -a   # include hidden files
+
 
