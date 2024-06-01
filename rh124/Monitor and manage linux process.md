@@ -8,6 +8,8 @@
 - GID (Group ID): Group identifier of the process owner.
 - Priority: Determines the scheduling of the process.
 
+### PS command
+
 `ps`: Display current processes.
 ```
 ps aux        # Display all processes with detailed information
@@ -21,6 +23,8 @@ pgrep <process_name>    # Find processes by name
 pkill <process_name>    # Kill processes by name
 
 ```
+
+### Top command
 
 `top`: Real-time system monitoring.
 ```
