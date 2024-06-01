@@ -48,14 +48,14 @@ kill -9 <PID>           # Send SIGKILL to a process
 killall <process_name>  # Kill all processes with the given name
 ```
 
-#### nice and renice: Change process priority:
+### nice and renice: Change process priority command :
 
 ```
 nice -n 10 <command>   # Start a process with lower priority
 renice 15 -p <PID>     # Change the priority of an existing process
 ```
 
-#### Service management:
+### Service management command :
 
 - Systemd is a system and service manager for Linux operating systems. 
 
