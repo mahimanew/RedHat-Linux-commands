@@ -1,0 +1,55 @@
+uname -> display system username
+date
+touch backup-`date +%F`
+date +%F
+date +%a
+date +%A
+mkdir `uname -n`
+
+touch file{1..10}
+touch file{1..10}.doc
+touch file{1..10}.txt
+rm *.doc
+rm *.txt
+
+df -> current partitions
+df -h ->human readable format
+
+history | cat > file
+cat file
+more file -> nextline:Enter, page:spacebar
+less file
+more +40 file
+
+who -> will display who are all login to this machine
+who -a
+who -u
+w
+
+ps
+ps -a
+pa -aux
+
+ls
+ls -l
+chmod 777 file  -> full permission
+ls -l | grep file
+chmod 444 file  -> read permission
+
+0-no operation
+x-1
+w-2
+r-4
+rw-3
+wr-6
+wrx-7
+
+chmod 160 file
+
+
+
+
+
+
+
+

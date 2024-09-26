@@ -1,0 +1,41 @@
+ls -> list 
+. -> hidden files
+la -l -> longer format
+man ls
+clear
+pwd
+cd Desktop
+cd - ->one step back
+cd .. ->one step back
+cd ~ -> back to home page
+
+mkdir dir1 ->create directory
+mkdir dir1 dir2 dir3 ->create multiple directory
+mkdir -p dir5/dir6/dir7 ->create directory with sub directory
+rmdir dir1 -> delete empty directory
+rm -rf dir5 -> delete all files with in the directory also
+
+
+touch file1 ->create empty file
+touch file2 file3 file4 ->create multiple file
+cat file1 ->display the file content
+cat > file1 ->write content in file
+cat >> file1 -> append the content in file
+
+history
+!73 -> display the command from 73rd line in history
+
+cp file1 /home/mahi/dir1
+mv /home/mahi/dir1/file1 /home/mahi/dir2
+
+
+
+
+
+
+
+
+
+
+
+

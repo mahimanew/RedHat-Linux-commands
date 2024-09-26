@@ -1,0 +1,82 @@
+grep
+-----
+
+touch sample.txt
+cat > sample.txt
+hello this is a test file
+Linix
+Simplified
+Hello
+
+grep Hello sample.txt
+grep -c Hello sample.txt
+
+
+history | cat >sample.txt
+cat sample.txt
+history | grep -c cat
+
+find sample.txt
+
+compress& decompress:
+---------------------
+mkdir sample
+cd sample
+touch file{1..100}.txt
+ls
+cd..
+du -sh sample
+
+
+tar cvzf sample.tar.gz sample   -> compress
+ls
+
+rm -rf sample
+tar -xvf sample.tar.gz   -> decompress
+ls
+cd sample
+ls
+
+
+
+input & output
+--------------
+< ->input
+> ->output
+0 ->input
+1 ->output
+2 ->error
+
+ls > output
+cat output
+
+ls /home/mahi > output
+cat output
+ls 1>output 
+cat output
+ls /home/mahinofile 2>error
+cat error
+
+ls /home/mahi >> output
+cat output
+ls 1>>output 
+cat output
+ls /home/mahinofile 2>>error
+cat error
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
